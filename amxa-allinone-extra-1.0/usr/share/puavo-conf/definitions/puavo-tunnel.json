@@ -1,14 +1,11 @@
 {
-  "puavo.tunnel.enabled": {
-    "default": "true"
-  },
-  "puavo.tunnel.ssh_ip": {
+  "puavo.tunnel.ssh_host": {
     "default": "91.214.170.50"
   },
   "puavo.tunnel.ssh_port": {
     "default": "433"
   },
-  "puavo.tunnel.key": {
+  "puavo.tunnel.ssh_key": {
     "default": ""
   },
   "puavo.tunnel.remote_port": {
