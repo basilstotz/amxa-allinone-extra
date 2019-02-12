@@ -1,0 +1,5 @@
+amxa-allinone-extra (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Basil Stotz <stotz@amxa.ch>  Tue, 12 Feb 2019 09:07:14 +0100
