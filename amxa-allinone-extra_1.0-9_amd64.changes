@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 13 Feb 2019 16:46:58 +0100
+Source: amxa-allinone-extra
+Binary: amxa-allinone-extra
+Architecture: source all
+Version: 1.0-9
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz.basil@builder4>
+Description:
+ amxa-allinone-extra - <insert up to 60 chars description>
+Changes:
+ amxa-allinone-extra (1.0-9) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * initial (not ready)
+   * new build
+   * again
+   * remove puavo-conf things
+   * fix .service
+   * better service
+   * cleanup
+   * cleanup
+   * add template
+Checksums-Sha1:
+ c230164c82f24120aadbacca7e970894efff6310 609 amxa-allinone-extra_1.0-9.dsc
+ f15229814c9880c6391636e8f10cd7e906124af1 2565 amxa-allinone-extra_1.0-9.tar.gz
+ 1955a5aba00b06e0f510f88b7472fe2168e48f4b 2264 amxa-allinone-extra_1.0-9_all.deb
+ ead83d37a6b6877b17cd425e377861f5f9e4f75d 5224 amxa-allinone-extra_1.0-9_amd64.buildinfo
+Checksums-Sha256:
+ 27b44789b6ea53e147ce8fb72fdfb61253bb431b6012ed471242576fc5f602a9 609 amxa-allinone-extra_1.0-9.dsc
+ 6bfc0ddd1fd5caa38edc69abf7f14e109c283a098571143d6eca904223615d51 2565 amxa-allinone-extra_1.0-9.tar.gz
+ 30aae078e7d3ab1346f7c8370783bdacfa40fbe33ce8ad5cffda53f362b439f5 2264 amxa-allinone-extra_1.0-9_all.deb
+ ff0e555927de21bdff358a0856bab794d3c79280c10420cdc4ecc452497e056a 5224 amxa-allinone-extra_1.0-9_amd64.buildinfo
+Files:
+ 060ce94c00cad4c14fd71db12e55f53a 609 unknown optional amxa-allinone-extra_1.0-9.dsc
+ f996c83abcb12af65caf653796da0bec 2565 unknown optional amxa-allinone-extra_1.0-9.tar.gz
+ c8f0bafae36732f80a9fbcd198971870 2264 unknown optional amxa-allinone-extra_1.0-9_all.deb
+ 967f84266e6099c942a49a06c5a551df 5224 unknown optional amxa-allinone-extra_1.0-9_amd64.buildinfo
