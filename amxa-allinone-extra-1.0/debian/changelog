@@ -1,3 +1,17 @@
+amxa-allinone-extra (1.0-8) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * initial (not ready)
+  * new build
+  * again
+  * remove puavo-conf things 
+  * fix .service
+  * better service 
+  * cleanup 
+  * cleanup 
+
+ -- Basil Stotz <stotz.basil@builder4>  Wed, 13 Feb 2019 09:34:46 +0100
+
 amxa-allinone-extra (1.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

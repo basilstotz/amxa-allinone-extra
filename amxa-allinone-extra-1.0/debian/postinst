@@ -41,6 +41,7 @@ case "$1" in
 	  fi
       fi
       
+      systemctl enable amxa-tunnel.service
       
     ;;
 
