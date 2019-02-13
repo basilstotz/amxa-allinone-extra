@@ -8,7 +8,6 @@ HOST="backup.amxa.ch"
 USER="tunnel"
 PORT="443"
 EOF
-
 exit 0
 fi
 
@@ -16,7 +15,7 @@ fi
 source /images/amxa/amxa-tunnel.config
 
 OPTS=" -o BatchMode=yes -o StrictHostKeyChecking=no "
-KEY="/images/amxa/key"
+KEY="/images/amxa/amx-tunnel.key"
 
 while true; do
     if test -e ${KEY}; then
