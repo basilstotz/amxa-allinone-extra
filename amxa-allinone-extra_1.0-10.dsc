@@ -2,7 +2,7 @@ Format: 1.0
 Source: amxa-allinone-extra
 Binary: amxa-allinone-extra
 Architecture: all
-Version: 1.0-9
+Version: 1.0-10
 Maintainer: Basil Stotz <stotz@amxa.ch>
 Homepage: <insert the upstream URL, if relevant>
 Standards-Version: 3.9.8
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  amxa-allinone-extra deb unknown optional arch=all
 Checksums-Sha1:
- f15229814c9880c6391636e8f10cd7e906124af1 2565 amxa-allinone-extra_1.0-9.tar.gz
+ aa1590a5fbf303f74603c58c88d286c298d35414 2571 amxa-allinone-extra_1.0-10.tar.gz
 Checksums-Sha256:
- 6bfc0ddd1fd5caa38edc69abf7f14e109c283a098571143d6eca904223615d51 2565 amxa-allinone-extra_1.0-9.tar.gz
+ e54976a86047926da4a18b3e8e855cd406e3da66ebed9de8998542d18d81deef 2571 amxa-allinone-extra_1.0-10.tar.gz
 Files:
- f996c83abcb12af65caf653796da0bec 2565 amxa-allinone-extra_1.0-9.tar.gz
+ b0ec8d614569bf1828efc8f8e168078a 2571 amxa-allinone-extra_1.0-10.tar.gz

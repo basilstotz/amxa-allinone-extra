@@ -1,4 +1,4 @@
-amxa-allinone-extra (1.0-9) UNRELEASED; urgency=medium
+amxa-allinone-extra (1.0-10) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * initial (not ready)
@@ -10,8 +10,9 @@ amxa-allinone-extra (1.0-9) UNRELEASED; urgency=medium
   * cleanup 
   * cleanup 
   * add template
+  * fix path
 
- -- Basil Stotz <stotz.basil@builder4>  Wed, 13 Feb 2019 16:46:58 +0100
+ -- Basil Stotz <stotz.basil@builder4>  Wed, 13 Feb 2019 16:49:11 +0100
 
 amxa-allinone-extra (1.0-1) unstable; urgency=medium
 

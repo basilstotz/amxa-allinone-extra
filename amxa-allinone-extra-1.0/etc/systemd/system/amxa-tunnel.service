@@ -4,7 +4,7 @@ After=syslog.target network.target nss-lookup.target
 
 [Service]
 Type=simple
-ExecStart=/images/amxa/amxa-tunnel
+ExecStart=/usr/sbin/amxa-tunnel
 #ExecReload=/bin/kill -s HUP $MAINPID
 #ExecStop=/bin/kill -s QUIT $MAINPID
 Restart=always
