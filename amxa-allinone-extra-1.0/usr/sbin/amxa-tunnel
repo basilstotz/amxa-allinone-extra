@@ -20,13 +20,13 @@ fi
 
 if ! test "$1" = "--service"; then
     echo "usage: $(basename $0) [ --template | --service ]"
-    echo
     exit 0
 fi
 
 
 if test -e ${KEY} -a -e ${CONFIG}; then
     chmod 600 ${KEY}
+    . ${CONFIG}
     while true; do
 	if ping -c 1  ${HOST} 2>/dev/null >/dev/null; then
             /usr/bin/autossh -N -p ${PORT} -i ${KEY} ${OPTS} -R ${REMOTE}:localhost:22 ${USER}@${HOST}
