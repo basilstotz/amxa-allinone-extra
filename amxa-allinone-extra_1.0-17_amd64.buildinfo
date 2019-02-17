@@ -2,19 +2,19 @@ Format: 1.0
 Source: amxa-allinone-extra
 Binary: amxa-allinone-extra
 Architecture: all source
-Version: 1.0-15
+Version: 1.0-17
 Checksums-Md5:
- fa307ffed987f5e30756719388b5f28f 613 amxa-allinone-extra_1.0-15.dsc
- 5a2c2b6f78ebf5c553e49927dff596f0 2740 amxa-allinone-extra_1.0-15_all.deb
+ 9ba261b28d034f1f08a89bcc4bf25ad0 613 amxa-allinone-extra_1.0-17.dsc
+ febece9d7ccf99b695525d794bb5518d 2800 amxa-allinone-extra_1.0-17_all.deb
 Checksums-Sha1:
- 9219c16a41f524d68e3a5f8ae44f64b2e609a45a 613 amxa-allinone-extra_1.0-15.dsc
- 636be85293a6215ccaac3f28dc1bd315039c438b 2740 amxa-allinone-extra_1.0-15_all.deb
+ 4405b5503161b913f27c45e3b5c76bda7ef6e5d4 613 amxa-allinone-extra_1.0-17.dsc
+ e4d48f2cdfa44486f5276b28b6c678e94e1e83d5 2800 amxa-allinone-extra_1.0-17_all.deb
 Checksums-Sha256:
- e4bf14fbab5e402a57ae210b68bf7f0396f1beb314ac285ba8b02d77413c0fdd 613 amxa-allinone-extra_1.0-15.dsc
- 7498534c7f0f7bdc00d6337226af34c7519638f974675324cba3da862b30d89a 2740 amxa-allinone-extra_1.0-15_all.deb
+ 343e95eaba20955f9c6ba1f0f4863b542f18f64551e966cb0ae9658a16eb764d 613 amxa-allinone-extra_1.0-17.dsc
+ 4f3dba2698796322062e86fa0e1507dae5f7d0370937524ab1ccc74027096a9f 2800 amxa-allinone-extra_1.0-17_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sun, 17 Feb 2019 06:21:05 +0100
+Build-Date: Sun, 17 Feb 2019 07:20:29 +0100
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -170,4 +170,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="de_CH.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1550380845"
+ SOURCE_DATE_EPOCH="1550384412"

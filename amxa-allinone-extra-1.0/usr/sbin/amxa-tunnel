@@ -4,7 +4,8 @@ OPTS=" -o BatchMode=yes -o StrictHostKeyChecking=no "
 KEY="/images/amxa/amxa-tunnel.key"
 CONFIG="/images/amxa/amxa-tunnel.config"
 
-if test "$1" = "--template" -a ! -e ${CONFIG}; then
+if test "$1" = "--template"; then
+    if ! test -e ${CONFIG}; then
 cat <<EOF >${CONFIG}
 # adapt these values to your needs
 # remote must be unique!
@@ -13,24 +14,27 @@ HOST="backup.amxa.ch"
 USER="tunnel"
 PORT="443"
 EOF
-exit 0
+   fi
+   exit 0
 fi
 
-if test -e ${CONFIG}; then
-    . ${CONFIG}
-else
-    exit 1
+if ! test "$1" = "--service"; then
+    echo "usage: $(basename $0) [ --template | --service ]"
+    echo
+    exit 0
 fi
 
 
-while true; do
-    if test -e ${KEY}; then
-	chmod 600 ${KEY}
+if test -e ${KEY} -a -e ${CONFIG}; then
+    chmod 600 ${KEY}
+    while true; do
 	if ping -c 1  ${HOST} 2>/dev/null >/dev/null; then
             /usr/bin/autossh -N -p ${PORT} -i ${KEY} ${OPTS} -R ${REMOTE}:localhost:22 ${USER}@${HOST}
         fi
-    fi
-    sleep 300
-done
+	sleep 300
+    done
+else
+    sleep 999999999
+fi
 
 exit
