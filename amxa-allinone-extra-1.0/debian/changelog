@@ -1,4 +1,4 @@
-amxa-allinone-extra (1.0-18) UNRELEASED; urgency=medium
+amxa-allinone-extra (1.0-19) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * initial (not ready)
@@ -19,8 +19,9 @@ amxa-allinone-extra (1.0-18) UNRELEASED; urgency=medium
   * cleanup
   * fix
   * fix again
+  * move amxa-tunnel to amxa-tunnel-service
 
- -- Basil Stotz <stotz.basil@builder4>  Sun, 17 Feb 2019 07:39:00 +0100
+ -- Basil Stotz <stotz.basil@builder4>  Sun, 17 Feb 2019 22:13:16 +0100
 
 amxa-allinone-extra (1.0-1) unstable; urgency=medium
 

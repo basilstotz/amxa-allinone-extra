@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Sun, 17 Feb 2019 22:13:16 +0100
+Source: amxa-allinone-extra
+Binary: amxa-allinone-extra
+Architecture: source all
+Version: 1.0-19
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz.basil@builder4>
+Description:
+ amxa-allinone-extra - <insert up to 60 chars description>
+Changes:
+ amxa-allinone-extra (1.0-19) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * initial (not ready)
+   * new build
+   * again
+   * remove puavo-conf things
+   * fix .service
+   * better service
+   * cleanup
+   * cleanup
+   * add template
+   * fix path
+   * cleanup
+   * cleanup
+   * new build
+   * fix install
+   * fix syntax error
+   * cleanup
+   * fix
+   * fix again
+   * move amxa-tunnel to amxa-tunnel-service
+Checksums-Sha1:
+ be5111c7c592bab3a7515c286ce63aae8b2e61b0 613 amxa-allinone-extra_1.0-19.dsc
+ ea382321713223c7a21d521cc4733553e3793652 1878 amxa-allinone-extra_1.0-19.tar.gz
+ 4b1a215359e3ca45e60bf0d2351eae7ee5d9ef82 1958 amxa-allinone-extra_1.0-19_all.deb
+ 087b1ff30431952446bdee544947df81231112dc 5231 amxa-allinone-extra_1.0-19_amd64.buildinfo
+Checksums-Sha256:
+ 3c0ea574109a835575a01cda89c23f227f9120a108ffef52d5d7583c490a370a 613 amxa-allinone-extra_1.0-19.dsc
+ 993e431fe026ab85cf39f9d7ee03efdf6e45f6b4f5e9717bd8e6ebb94c0cc526 1878 amxa-allinone-extra_1.0-19.tar.gz
+ 9d72d027ea40281ad2ebc90dc6bbf2e3f379ae065360ee80ba049fca6ca8b724 1958 amxa-allinone-extra_1.0-19_all.deb
+ 197d4dc6919ff23803cbf8dfe64107a40b7d90878284a486a234413ea41bc46f 5231 amxa-allinone-extra_1.0-19_amd64.buildinfo
+Files:
+ ee20be8611813c65b1ebe48bfebe0a62 613 unknown optional amxa-allinone-extra_1.0-19.dsc
+ 5a7fe3dd748f3859a7105e4780741a1e 1878 unknown optional amxa-allinone-extra_1.0-19.tar.gz
+ dc095a7c061b255c4a8b9acea1626a1d 1958 unknown optional amxa-allinone-extra_1.0-19_all.deb
+ 3cc61736d5e26f57e5a4e584d9f8344f 5231 unknown optional amxa-allinone-extra_1.0-19_amd64.buildinfo
