@@ -4,7 +4,7 @@ OPTS=" -o BatchMode=yes -o StrictHostKeyChecking=no "
 KEY="/images/amxa/amxa-tunnel.key"
 CONFIG="/images/amxa/amxa-tunnel.config"
 
-if test "$1" = "--template"; then
+if test "$1" = "--template" -a ! -e ${CONFIG}; then
 cat <<EOF >${CONFIG}
 # adapt these values to your needs
 # remote must be unique!
@@ -17,7 +17,7 @@ exit 0
 fi
 
 if test -e ${CONFIG}; then
-    source ${CONFIG}
+    . ${CONFIG}
 else
     exit 1
 fi
