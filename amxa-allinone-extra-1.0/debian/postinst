@@ -24,7 +24,9 @@ case "$1" in
       #patch puavo-bootserver-sync-images
       sed -i /usr/sbin/puavo-bootserver-sync-images -e's/VERIFY_PEER/VERIFY_NONE/g'
 
-      #use 80G ,and not 40G, for /images on laptops: puavo-setup-filesystem
+      #use 144G ,and not 128G, for /images on bootservers: puavo-setup-filesystem
+      sed -i /usr/sbin/puavo-setup-filesystems -e 's/128G/144G/'
+      #use 80 GByte for /images on laptops
       sed -i /usr/sbin/puavo-setup-filesystems -e 's/40G/80G/'
 
       #save original names

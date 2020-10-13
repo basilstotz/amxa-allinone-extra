@@ -1,4 +1,4 @@
-amxa-allinone-extra (1.0-19) UNRELEASED; urgency=medium
+amxa-allinone-extra (1.0-20.1) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * initial (not ready)
@@ -20,8 +20,10 @@ amxa-allinone-extra (1.0-19) UNRELEASED; urgency=medium
   * fix
   * fix again
   * move amxa-tunnel to amxa-tunnel-service
+  * set bootserver image partition from 128G to 144G
+  * change section to system
 
- -- Basil Stotz <stotz.basil@builder4>  Sun, 17 Feb 2019 22:13:16 +0100
+ -- Basil Stotz <stotz.basil@builder4>  Mon, 18 Feb 2019 15:18:28 +0100
 
 amxa-allinone-extra (1.0-1) unstable; urgency=medium
 
