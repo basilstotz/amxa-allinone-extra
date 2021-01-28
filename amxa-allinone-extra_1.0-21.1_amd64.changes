@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Tue, 13 Oct 2020 13:43:43 +0200
+Source: amxa-allinone-extra
+Binary: amxa-allinone-extra
+Architecture: source all
+Version: 1.0-21.1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz.basil@stretch-SEm1vo53>
+Description:
+ amxa-allinone-extra - Some ugly patches for Puavo
+Changes:
+ amxa-allinone-extra (1.0-21.1) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * initial (not ready)
+   * new build
+   * again
+   * remove puavo-conf things
+   * fix .service
+   * better service
+   * cleanup
+   * cleanup
+   * add template
+   * fix path
+   * cleanup
+   * cleanup
+   * new build
+   * fix install
+   * fix syntax error
+   * cleanup
+   * fix
+   * fix again
+   * move amxa-tunnel to amxa-tunnel-service
+   * set bootserver image partition from 128G to 144G
+   * change section to system
+   * set laptop image partition to 40G to 80G
+   * remove cert check in puavo-install-and-update-image
+Checksums-Sha1:
+ f0693a809b29b1103c4bdceff09ce8b583f2211f 620 amxa-allinone-extra_1.0-21.1.dsc
+ 00537c0afdd723cc4093414fa25445bb5deaa371 2029 amxa-allinone-extra_1.0-21.1.tar.gz
+ ed022414ab369b570ea3836e87c59046a1ef8124 2134 amxa-allinone-extra_1.0-21.1_all.deb
+ 0d41ef2efc2d16f0b31ee58eb5aa30c567e3125f 5311 amxa-allinone-extra_1.0-21.1_amd64.buildinfo
+Checksums-Sha256:
+ 6d8172cfb504c3a6dfaa15cda87d42ce9f259f3e52a97257c118cb5052973d03 620 amxa-allinone-extra_1.0-21.1.dsc
+ f65803c826279e6edebc5d6641b0f597de9523f0eb11d14f3c84a0650a85c1b4 2029 amxa-allinone-extra_1.0-21.1.tar.gz
+ e982a752b00bc6d8019f1c4b79ec99e1d6bb5910c8a034659bfeea646231ba85 2134 amxa-allinone-extra_1.0-21.1_all.deb
+ 97e199fa8823f866ce8d255a22c73f11eadeef7e8b63787156cafca7963759af 5311 amxa-allinone-extra_1.0-21.1_amd64.buildinfo
+Files:
+ 19ccb011d24779f27dc74e527b93a3d0 620 system optional amxa-allinone-extra_1.0-21.1.dsc
+ 8059ef8cfe6948ff11ce414049d819d2 2029 system optional amxa-allinone-extra_1.0-21.1.tar.gz
+ 44167cb63b7502b189922f368432a9cd 2134 system optional amxa-allinone-extra_1.0-21.1_all.deb
+ 8466ab48a0f9c4deaa31ea5a1ce0260d 5311 system optional amxa-allinone-extra_1.0-21.1_amd64.buildinfo
